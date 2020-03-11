@@ -17,7 +17,7 @@ class CreateUsersTable extends Migration
 
 
             $table->bigIncrements('id');
-            $table->unsignedBigInteger('user_id');
+            // $table->unsignedBigInteger('user_id');
             $table->string('name');
             $table->string('email')->unique();
             $table->string('username')->unique();
@@ -26,7 +26,7 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->timestamps();
 
-            $table->index('user_id');
+            // $table->index('user_id');
         });
     }
 
