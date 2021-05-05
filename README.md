@@ -1,4 +1,4 @@
-
+![AppVeyor](https://img.shields.io/appveyor/build/ississam/clone-instagram?style=flat-square)
 ## Getting started
 1. Clone project `https://github.com/ississam/clone-instagrame.git`
 2. Go to the folder `cd instagramClone`
